@@ -1,0 +1,44 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_CURA Healthcare Service/manualMakeApp",
+      "brokenLocator": "//*[@id \u003d \u0027btn-ma",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[@id\u003d\u0027btn-make-appointment\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20260312_123652/TS01/20260312_123652/Object Repository/Page_CURA Healthcare Service/manualMakeApp_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/ManualInputUser",
+      "brokenLocator": "//*[@id \u003d \u0027txt-us",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027txt-username\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20260312_123652/TS01/20260312_123652/Object Repository/ManualInputUser_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/manualPassword",
+      "brokenLocator": "//*[@id \u003d \u0027txt-pa",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027txt-password\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20260312_123652/TS01/20260312_123652/Object Repository/manualPassword_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_CURA Healthcare Service/manualLogin",
+      "brokenLocator": "//*[@id \u003d \u0027btn-lo",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@id\u003d\u0027btn-login\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20260312_123652/TS01/20260312_123652/Object Repository/Page_CURA Healthcare Service/manualLogin_XPATH.png"
+    }
+  ]
+}

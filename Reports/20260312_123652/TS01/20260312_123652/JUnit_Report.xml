@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS01" time="107.91" tests="2" failures="0" errors="0">
+   <testsuite name="TS01" tests="2" failures="0" errors="0" time="107.91" skipped="0" timestamp="2026-03-12T07:06:55.719Z" hostname="bhavyansh-katalon - mac.lan" id="Test Suites/TS01">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/bhavyansh-katalon/git/aiFailureCheck/Reports/20260312_123652/TS01/20260312_123652"/>
+         <property name="logFiles" value="/Users/bhavyansh-katalon/git/aiFailureCheck/Reports/20260312_123652/TS01/20260312_123652/execution0.log, /Users/bhavyansh-katalon/git/aiFailureCheck/Reports/20260312_123652/TS01/20260312_123652/console0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="bhavyansh-katalon - mac.lan"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="11.0.1.0"/>
+         <property name="browser" value="Chrome 145.0.7632.160"/>
+         <property name="userFullName" value="Bhavyansh"/>
+         <property name="hostAddress" value="192.168.31.170"/>
+         <property name="sessionId" value="8dd149c1b10a0d83bd07b1327670ae1b"/>
+         <property name="projectName" value="aiFailureCheck"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/tc01" time="58.0" classname="Test Cases/tc01" status="PASSED">
+         <system-out><![CDATA[12-03-2026T12:36:55 - [TEST_CASE][PASSED] - Test Cases/tc01: Test Cases/tc01
+
+12-03-2026T12:36:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-03-2026T12:36:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-03-2026T12:36:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-03-2026T12:36:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-03-2026T12:36:58 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+12-03-2026T12:37:01 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+12-03-2026T12:37:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/manualMakeApp")): Object: 'Object Repository/Page_CURA Healthcare Service/manualMakeApp' is clicked on
+
+12-03-2026T12:37:11 - [MESSAGE][WARNING] - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/Page_CURA Healthcare Service/manualMakeApp'. Try using Self-healing.
+
+12-03-2026T12:37:11 - [MESSAGE][INFO] - [WEBUI-SELF-HEALING] No working XPath is found.
+
+12-03-2026T12:37:23 - [MESSAGE][INFO] - [WEBUI-SELF-HEALING] Screenshot: /Users/bhavyansh-katalon/git/aiFailureCheck/Reports/Self-healing/Object Repository/Page_CURA Healthcare Service/manualMakeApp_XPATH.png
+
+12-03-2026T12:37:23 - [MESSAGE][WARNING] - Waiting for element timed out
+
+12-03-2026T12:37:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/manualMakeApp' is clicked on
+
+12-03-2026T12:37:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ManualInputUser"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/ManualInputUser'
+
+12-03-2026T12:37:33 - [MESSAGE][WARNING] - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/ManualInputUser'. Try using Self-healing.
+
+12-03-2026T12:37:34 - [MESSAGE][INFO] - [WEBUI-SELF-HEALING] No working XPath is found.
+
+12-03-2026T12:37:42 - [MESSAGE][INFO] - [WEBUI-SELF-HEALING] Screenshot: /Users/bhavyansh-katalon/git/aiFailureCheck/Reports/Self-healing/Object Repository/ManualInputUser_XPATH.png
+
+12-03-2026T12:37:42 - [MESSAGE][WARNING] - Waiting for element timed out
+
+12-03-2026T12:37:52 - [MESSAGE][WARNING] - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/ManualInputUser'. Try using Self-healing.
+
+12-03-2026T12:37:52 - [MESSAGE][WARNING] - [WEBUI-SELF-HEALING] The current locator of test object 'Object Repository/ManualInputUser' was broken. Propose an alternative one: '//input[@id='txt-username']'.
+
+12-03-2026T12:37:52 - [MESSAGE][WARNING] - Waiting for element timed out
+
+12-03-2026T12:37:53 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/ManualInputUser'
+
+12-03-2026T12:37:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_CURA Healthcare Service/input_Password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password'
+
+12-03-2026T12:37:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password'
+
+12-03-2026T12:37:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/button_btn-login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_btn-login' is clicked on
+
+12-03-2026T12:37:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_btn-login' is clicked on
+
+12-03-2026T12:37:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-03-2026T12:37:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/tc02" time="49.851" classname="Test Cases/tc02" status="PASSED">
+         <system-out><![CDATA[12-03-2026T12:37:53 - [TEST_CASE][PASSED] - Test Cases/tc02: Test Cases/tc02
+
+12-03-2026T12:37:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-03-2026T12:37:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-03-2026T12:37:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-03-2026T12:37:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-03-2026T12:37:54 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+12-03-2026T12:37:55 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+12-03-2026T12:37:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_btn-make-appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_btn-make-appointment' is clicked on
+
+12-03-2026T12:38:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_btn-make-appointment' is clicked on
+
+12-03-2026T12:38:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username'
+
+12-03-2026T12:38:01 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username'
+
+12-03-2026T12:38:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("manualPassword"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/manualPassword'
+
+12-03-2026T12:38:11 - [MESSAGE][WARNING] - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/manualPassword'. Try using Self-healing.
+
+12-03-2026T12:38:11 - [MESSAGE][INFO] - [WEBUI-SELF-HEALING] No working XPath is found.
+
+12-03-2026T12:38:21 - [MESSAGE][INFO] - [WEBUI-SELF-HEALING] Screenshot: /Users/bhavyansh-katalon/git/aiFailureCheck/Reports/Self-healing/Object Repository/manualPassword_XPATH.png
+
+12-03-2026T12:38:21 - [MESSAGE][WARNING] - Waiting for element timed out
+
+12-03-2026T12:38:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/manualPassword'
+
+12-03-2026T12:38:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/manualLogin")): Object: 'Object Repository/Page_CURA Healthcare Service/manualLogin' is clicked on
+
+12-03-2026T12:38:32 - [MESSAGE][WARNING] - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/Page_CURA Healthcare Service/manualLogin'. Try using Self-healing.
+
+12-03-2026T12:38:32 - [MESSAGE][INFO] - [WEBUI-SELF-HEALING] No working XPath is found.
+
+12-03-2026T12:38:42 - [MESSAGE][INFO] - [WEBUI-SELF-HEALING] Screenshot: /Users/bhavyansh-katalon/git/aiFailureCheck/Reports/Self-healing/Object Repository/Page_CURA Healthcare Service/manualLogin_XPATH.png
+
+12-03-2026T12:38:42 - [MESSAGE][WARNING] - Waiting for element timed out
+
+12-03-2026T12:38:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/manualLogin' is clicked on
+
+12-03-2026T12:38:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-03-2026T12:38:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-03-2026T12:36:55 - [TEST_SUITE][PASSED] - TS01: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

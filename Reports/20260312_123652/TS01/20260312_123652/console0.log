@@ -1,0 +1,111 @@
+2026-03-12 12:36:55.369 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon Studio 2.app/Contents/Eclipse/configuration/org.eclipse.osgi/148/0/.cp/resources/logback/logback-execution.xml
+2026-03-12 12:36:55.371 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: /Users/bhavyansh-katalon/git/aiFailureCheck/Include/config/log.properties
+2026-03-12 12:36:55.695 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS01
+2026-03-12 12:36:55.727 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Bhavyansh
+2026-03-12 12:36:55.728 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = aiFailureCheck
+2026-03-12 12:36:55.728 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = bhavyansh-katalon - mac.lan
+2026-03-12 12:36:55.729 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2026-03-12 12:36:55.729 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.31.170
+2026-03-12 12:36:55.729 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.0.1.0
+2026-03-12 12:36:55.774 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-12 12:36:55.774 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/tc01
+2026-03-12 12:36:55.903 DEBUG testcase.tc01                            - 1: openBrowser("")
+2026-03-12 12:36:56.041 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-03-12 12:36:56.057 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 12, 2026 12:36:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 145
+2026-03-12 12:36:58.455 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = de3d8639d8e5edda3a3c2f03636bff5b
+2026-03-12 12:36:58.456 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 145.0.7632.160
+2026-03-12 12:36:58.457 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-03-12 12:36:58.458 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-12 12:36:58.461 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-12 12:36:58.522 DEBUG testcase.tc01                            - 2: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2026-03-12 12:37:01.319 DEBUG testcase.tc01                            - 3: click(findTestObject("Object Repository/Page_CURA Healthcare Service/manualMakeApp"))
+2026-03-12 12:37:11.585 WARN  .c.w.m.WebUiElementFinderWithSelfHealing - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/Page_CURA Healthcare Service/manualMakeApp'. Try using Self-healing.
+2026-03-12 12:37:11.590 INFO  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] No working XPath is found.
+> Remove hidden elements: 4,301 -> 1,051 (-77.18%)
+> Remove next siblings: 1,051 -> 1,051 (-0%)
+> Remove redundant parents: 1,051 -> 1,051 (-0%)
+> Remove event handler attributes: 1,051 -> 943 (-2.56%)
+> Trim long attributes: 943 -> 943 (-0%)
+> Trim long text: 943 -> 747 (-4.65%)
+> Minify HTML syntax: 747 -> 627 (-2.85%)
+>>> Total: 4,211 -> 747 (-82.26%)
+2026-03-12 12:37:23.623 INFO  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] Screenshot: /Users/bhavyansh-katalon/git/aiFailureCheck/Reports/Self-healing/Object Repository/Page_CURA Healthcare Service/manualMakeApp_XPATH.png
+2026-03-12 12:37:23.631 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-03-12 12:37:23.979 DEBUG testcase.tc01                            - 4: setText(findTestObject("Object Repository/ManualInputUser"), "John Doe")
+2026-03-12 12:37:33.999 WARN  .c.w.m.WebUiElementFinderWithSelfHealing - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/ManualInputUser'. Try using Self-healing.
+2026-03-12 12:37:34.002 INFO  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] No working XPath is found.
+> Remove hidden elements: 7,407 -> 4,116 (-45.18%)
+> Remove next siblings: 4,116 -> 4,116 (-0%)
+> Remove redundant parents: 4,116 -> 4,116 (-0%)
+> Remove event handler attributes: 4,116 -> 4,008 (-1.48%)
+> Trim long attributes: 4,008 -> 3,976 (-0.44%)
+> Trim long text: 3,976 -> 2,642 (-18.31%)
+> Minify HTML syntax: 2,642 -> 2,313 (-4.52%)
+>>> Total: 7,285 -> 2,642 (-63.73%)
+2026-03-12 12:37:42.607 INFO  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] Screenshot: /Users/bhavyansh-katalon/git/aiFailureCheck/Reports/Self-healing/Object Repository/ManualInputUser_XPATH.png
+2026-03-12 12:37:42.619 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Waiting for element timed out
+2026-03-12 12:37:52.708 WARN  .c.w.m.WebUiElementFinderWithSelfHealing - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/ManualInputUser'. Try using Self-healing.
+2026-03-12 12:37:52.951 WARN  .c.w.m.WebUiElementFinderWithSelfHealing - [WEBUI-SELF-HEALING] The current locator of test object 'Object Repository/ManualInputUser' was broken. Propose an alternative one: '//input[@id='txt-username']'.
+2026-03-12 12:37:52.958 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Waiting for element timed out
+2026-03-12 12:37:53.079 DEBUG testcase.tc01                            - 5: setEncryptedText(findTestObject("Page_CURA Healthcare Service/input_Password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM")
+2026-03-12 12:37:53.376 DEBUG testcase.tc01                            - 6: click(findTestObject("Page_CURA Healthcare Service/button_btn-login"))
+2026-03-12 12:37:53.652 DEBUG testcase.tc01                            - 7: closeBrowser()
+2026-03-12 12:37:53.774 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/tc01
+2026-03-12 12:37:53.775 INFO  c.k.katalon.core.main.TestCaseExecutor   - 
+2026-03-12 12:37:53.775 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===================== Self-healing Report ====================
+2026-03-12 12:37:53.775 INFO  c.k.katalon.core.main.TestCaseExecutor   - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+2026-03-12 12:37:53.775 INFO  c.k.katalon.core.main.TestCaseExecutor   - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/maintain-tests/self-healing-tests-in-katalon-studio
+2026-03-12 12:37:53.775 INFO  c.k.katalon.core.main.TestCaseExecutor   - ==============================================================
+2026-03-12 12:37:53.778 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-12 12:37:53.778 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/tc02
+2026-03-12 12:37:53.798 DEBUG testcase.tc02                            - 1: openBrowser("")
+2026-03-12 12:37:53.800 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-03-12 12:37:53.801 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 12, 2026 12:37:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 145
+2026-03-12 12:37:54.761 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 8dd149c1b10a0d83bd07b1327670ae1b
+2026-03-12 12:37:54.761 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 145.0.7632.160
+2026-03-12 12:37:54.762 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-03-12 12:37:54.762 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-12 12:37:54.763 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-12 12:37:54.772 DEBUG testcase.tc02                            - 2: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2026-03-12 12:37:55.730 DEBUG testcase.tc02                            - 3: click(findTestObject("Page_CURA Healthcare Service/a_btn-make-appointment"))
+2026-03-12 12:38:00.745 DEBUG testcase.tc02                            - 4: setText(findTestObject("Page_CURA Healthcare Service/input_Username"), "John Doe")
+2026-03-12 12:38:01.574 DEBUG testcase.tc02                            - 5: setEncryptedText(findTestObject("manualPassword"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM")
+2026-03-12 12:38:11.795 WARN  .c.w.m.WebUiElementFinderWithSelfHealing - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/manualPassword'. Try using Self-healing.
+2026-03-12 12:38:11.797 INFO  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] No working XPath is found.
+> Remove hidden elements: 7,407 -> 4,116 (-45.18%)
+> Remove next siblings: 4,116 -> 4,116 (-0%)
+> Remove redundant parents: 4,116 -> 4,116 (-0%)
+> Remove event handler attributes: 4,116 -> 4,008 (-1.48%)
+> Trim long attributes: 4,008 -> 3,976 (-0.44%)
+> Trim long text: 3,976 -> 2,642 (-18.31%)
+> Minify HTML syntax: 2,642 -> 2,313 (-4.52%)
+>>> Total: 7,285 -> 2,642 (-63.73%)
+2026-03-12 12:38:21.900 INFO  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] Screenshot: /Users/bhavyansh-katalon/git/aiFailureCheck/Reports/Self-healing/Object Repository/manualPassword_XPATH.png
+2026-03-12 12:38:21.905 WARN  c.k.k.c.w.k.b.SetEncryptedTextKeyword    - Waiting for element timed out
+2026-03-12 12:38:21.941 DEBUG testcase.tc02                            - 6: click(findTestObject("Page_CURA Healthcare Service/manualLogin"))
+2026-03-12 12:38:32.163 WARN  .c.w.m.WebUiElementFinderWithSelfHealing - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/Page_CURA Healthcare Service/manualLogin'. Try using Self-healing.
+2026-03-12 12:38:32.167 INFO  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] No working XPath is found.
+> Remove hidden elements: 8,880 -> 5,076 (-43.43%)
+> Remove next siblings: 5,076 -> 5,076 (-0%)
+> Remove redundant parents: 5,076 -> 5,076 (-0%)
+> Remove event handler attributes: 5,076 -> 4,968 (-1.23%)
+> Trim long attributes: 4,968 -> 4,936 (-0.37%)
+> Trim long text: 4,936 -> 3,602 (-15.23%)
+> Minify HTML syntax: 3,602 -> 3,164 (-5%)
+>>> Total: 8,758 -> 3,602 (-58.87%)
+2026-03-12 12:38:42.763 INFO  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] Screenshot: /Users/bhavyansh-katalon/git/aiFailureCheck/Reports/Self-healing/Object Repository/Page_CURA Healthcare Service/manualLogin_XPATH.png
+2026-03-12 12:38:42.770 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-03-12 12:38:42.805 DEBUG testcase.tc02                            - 7: closeBrowser()
+2026-03-12 12:38:43.629 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/tc02
+2026-03-12 12:38:43.630 INFO  c.k.katalon.core.main.TestCaseExecutor   - 
+2026-03-12 12:38:43.630 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===================== Self-healing Report ====================
+2026-03-12 12:38:43.630 INFO  c.k.katalon.core.main.TestCaseExecutor   - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+2026-03-12 12:38:43.630 INFO  c.k.katalon.core.main.TestCaseExecutor   - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/maintain-tests/self-healing-tests-in-katalon-studio
+2026-03-12 12:38:43.630 INFO  c.k.katalon.core.main.TestCaseExecutor   - ==============================================================
+2026-03-12 12:38:43.645 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-03-12 12:38:43.645 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS01
+2026-03-12 12:38:43.645 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

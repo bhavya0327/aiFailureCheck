@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS01,Chrome 145.0.7632.160,,,12-03-2026 12:36:55,12-03-2026 12:38:43,1m - 47.926s,PASSED
+,,,,,,,
+Test Cases/tc01,Chrome 145.0.7632.160,,,12-03-2026 12:36:55,12-03-2026 12:37:53,58.000s,PASSED
+"openBrowser("""")",Chrome 145.0.7632.160,,,12-03-2026 12:36:55,12-03-2026 12:36:58,2.618s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 145.0.7632.160,,,12-03-2026 12:36:58,12-03-2026 12:37:01,2.797s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/manualMakeApp""))",Chrome 145.0.7632.160,,,12-03-2026 12:37:01,12-03-2026 12:37:23,22.659s,PASSED
+"setText(findTestObject(""Object Repository/ManualInputUser""), ""John Doe"")",Chrome 145.0.7632.160,,,12-03-2026 12:37:23,12-03-2026 12:37:53,29.100s,PASSED
+"setEncryptedText(findTestObject(""Page_CURA Healthcare Service/input_Password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 145.0.7632.160,,,12-03-2026 12:37:53,12-03-2026 12:37:53,0.297s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_btn-login""))",Chrome 145.0.7632.160,,,12-03-2026 12:37:53,12-03-2026 12:37:53,0.276s,PASSED
+closeBrowser(),Chrome 145.0.7632.160,,,12-03-2026 12:37:53,12-03-2026 12:37:53,0.121s,PASSED
+,,,,,,,
+Test Cases/tc02,Chrome 145.0.7632.160,,,12-03-2026 12:37:53,12-03-2026 12:38:43,49.851s,PASSED
+"openBrowser("""")",Chrome 145.0.7632.160,,,12-03-2026 12:37:53,12-03-2026 12:37:54,0.973s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 145.0.7632.160,,,12-03-2026 12:37:54,12-03-2026 12:37:55,0.959s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_btn-make-appointment""))",Chrome 145.0.7632.160,,,12-03-2026 12:37:55,12-03-2026 12:38:00,5.008s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Username""), ""John Doe"")",Chrome 145.0.7632.160,,,12-03-2026 12:38:00,12-03-2026 12:38:01,0.829s,PASSED
+"setEncryptedText(findTestObject(""manualPassword""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 145.0.7632.160,,,12-03-2026 12:38:01,12-03-2026 12:38:21,20.367s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/manualLogin""))",Chrome 145.0.7632.160,,,12-03-2026 12:38:21,12-03-2026 12:38:42,20.864s,PASSED
+closeBrowser(),Chrome 145.0.7632.160,,,12-03-2026 12:38:42,12-03-2026 12:38:43,0.822s,PASSED
