@@ -5,11 +5,11 @@
    <tag></tag>
    <UUID>8b7c79cb-84b6-4567-8063-02b6125dfce8</UUID>
    <createdEdition>ENTERPRISE</createdEdition>
-   <createdVersion>11.0.1</createdVersion>
+   <createdVersion>10.4.3</createdVersion>
    <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>ENTERPRISE</modifiedEdition>
-   <modifiedVersion>11.0.1</modifiedVersion>
+   <modifiedVersion>10.4.3</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <projectFileLocation>/Users/bhavyansh-katalon/git/aiFailureCheck/aiFailureCheck.prj</projectFileLocation>
    <sourceContent>
