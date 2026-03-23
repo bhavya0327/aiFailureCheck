@@ -1,15 +1,28 @@
 version: 2.1
-orbs:
-  # Changed 23.0.12 to 23.0.11 (The actual latest published version)
-  katalon-studio: katalon/katalon-studio@23.0.11
-workflows:
-  build:
-    jobs:
+
+# 1. Define the jobs (What to do)
+jobs:
   run-katalon:
     docker:
+      # This guarantees CircleCI uses exactly 10.4.3
       - image: katalonstudio/katalon:10.4.3
     steps:
       - checkout
-      - katalon-studio/execute:
-          command_arguments: >-
-            -retry=0 -testSuitePath="Test Suites/TS01" -browserType="Chrome" -executionProfile="default" -apiKey="a7ff389c-4d29-42ef-9c35-5ae1a39231a8" --config -webui.autoUpdateDrivers=true
+      - run:
+          name: Execute Katalon Studio 10.4.3 Tests
+          # 2. Run the native command directly, bypassing the broken Orb entirely
+          command: >-
+            katalonc.sh 
+            -projectPath="$(pwd)" 
+            -apiKey="d1e929ac-be0f-4cec-a5fc-f9fd6d7c8485" 
+            -retry=0 
+            -testSuitePath="Test Suites/TS01" 
+            -browserType="Chrome" 
+            -executionProfile="default" 
+            --config -webui.autoUpdateDrivers=true
+
+# 3. Define the workflow (When to do it)
+workflows:
+  build:
+    jobs:
+      - run-katalon
