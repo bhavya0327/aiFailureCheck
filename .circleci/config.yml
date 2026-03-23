@@ -6,7 +6,7 @@ workflows:
   build:
     jobs:
       - katalon-studio/run:
-          version: 10.4.3
+          version: 10.4.0
           command_arguments: >-
             -retry=0 -testSuitePath="Test Suites/TS01" -browserType="Chrome" -executionProfile="default" -apiKey="a7ff389c-4d29-42ef-9c35-5ae1a39231a8" --config -webui.autoUpdateDrivers=true
 
