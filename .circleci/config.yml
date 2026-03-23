@@ -1,12 +1,10 @@
-version: 2.1
-orbs:
-  # Changed 23.0.12 to 23.0.11 (The actual latest published version)
-  katalon-studio: katalon/katalon-studio@23.0.11
-workflows:
-  build:
-    jobs:
-      - katalon-studio/run:
-          version: 10.4.0
+jobs:
+  run-katalon:
+    docker:
+      - image: katalonstudio/katalon:10.4.3
+    steps:
+      - checkout
+      - katalon-studio/execute:
           command_arguments: >-
             -retry=0 -testSuitePath="Test Suites/TS01" -browserType="Chrome" -executionProfile="default" -apiKey="a7ff389c-4d29-42ef-9c35-5ae1a39231a8" --config -webui.autoUpdateDrivers=true
 
