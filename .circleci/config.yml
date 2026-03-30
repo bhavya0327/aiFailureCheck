@@ -1,16 +1,13 @@
 version: 2.1
 
-
 jobs:
   run-katalon:
     docker:
-
       - image: katalonstudio/katalon:10.4.3
     steps:
       - checkout
       - run:
           name: Execute Katalon Studio 10.4.3 Tests
-          
           command: >-
             katalonc.sh 
             -projectPath="$(pwd)" 
@@ -20,7 +17,11 @@ jobs:
             -browserType="Chrome" 
             -executionProfile="default" 
             --config -webui.autoUpdateDrivers=true
-
+            
+      # --- ADDED ARTIFACT STEP HERE ---
+      - store_artifacts:
+          path: Reports/
+          destination: katalon-test-reports
 
 workflows:
   build:
