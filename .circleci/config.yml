@@ -3,11 +3,11 @@ version: 2.1
 jobs:
   run-katalon:
     docker:
-      - image: katalonstudio/katalon:10.4.3
+      - image: katalonstudio/katalon:11-latest-slim
     steps:
       - checkout
       - run:
-          name: Execute Katalon Studio 10.4.3 Tests
+          name: Execute Katalon Studio Latest v11.x Tests
           command: >-
             katalonc.sh 
             -projectPath="$(pwd)" 
