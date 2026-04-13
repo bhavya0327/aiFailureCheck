@@ -1,7 +1,20 @@
+# Katalon Reports
+Reports/
+report/
 
-/bin/
-/Libs/
-/.settings/
-/.classpath
-.svn/
-.cache/
+# Logs and media
+*.log
+*.png
+*.jpg
+*.html
+
+# Temp files
+*.txt
+.temp-*
+
+# Execution files
+execution.properties
+execution.uuid
+
+# JUnit Reports
+JUnit_Report.xml
