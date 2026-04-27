@@ -4,30 +4,26 @@
    <name>button_btn-login</name>
    <tag></tag>
    <elementGuidId>755fb89b-294f-4ee6-a759-82673ebbb04c</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@id = 'btn-</value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#btn-</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='btn-login']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value></value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>

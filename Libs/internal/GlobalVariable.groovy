@@ -12,7 +12,7 @@ public class GlobalVariable {
 
     static {
         try {
-            def selectedVariables = TestCaseMain.getGlobalVariables("default")
+            def selectedVariables = TestCaseMain.getGlobalVariables('default')
 			selectedVariables += TestCaseMain.getGlobalVariables(RunConfiguration.getExecutionProfile())
     
             

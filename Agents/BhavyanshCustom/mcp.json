@@ -1,0 +1,14 @@
+{
+  "servers" : {
+  	"MOCK_ADO": {
+      "type": "http",
+      "name": "MOCK_ADO",
+      "title": "Mock ADO MCP",
+      "url": "http://127.0.0.1:4001/mcp",
+      "headers": {
+        "x-litellm-api-key": "Bearer sk-demo-key-12345",
+        "x-mcp-azuredevops-pat": "demo-pat-token-67890"
+      }
+    }
+	   }
+}

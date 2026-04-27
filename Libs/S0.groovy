@@ -18,9 +18,9 @@ Map<String, String> suiteProperties = new HashMap<String, String>();
 
 suiteProperties.put('rerunTestFailImmediately', 'true')
 suiteProperties.put('retryCount', '0')
-suiteProperties.put('name', 'TS01')
+suiteProperties.put('name', 'New Test Suite')
 suiteProperties.put('description', '')
-suiteProperties.put('id', 'Test Suites/TS01')
+suiteProperties.put('id', 'Test Suites/New Test Suite')
  
 
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.webui.contribution.WebUiDriverCleaner())
@@ -31,10 +31,10 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.t
 
 
 
-RunConfiguration.setExecutionSettingFile("/Users/bhavyansh-katalon/aiFailureCheck/Reports/20260413_180719/TS01/20260413_180719/execution.properties")
+RunConfiguration.setExecutionSettingFile("/Users/bhavyansh-katalon/aiFailureCheck/Reports/20260427_134418/New Test Suite/20260427_134418/execution.properties")
 
 TestCaseMain.beforeStart()
 
 new ExecutionMain().init();
 
-TestCaseMain.startTestSuite('Test Suites/TS01', suiteProperties, new File("/Users/bhavyansh-katalon/aiFailureCheck/Reports/20260413_180719/TS01/20260413_180719/testCaseBinding"))
+TestCaseMain.startTestSuite('Test Suites/New Test Suite', suiteProperties, new File("/Users/bhavyansh-katalon/aiFailureCheck/Reports/20260427_134418/New Test Suite/20260427_134418/testCaseBinding"))
